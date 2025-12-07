@@ -1,0 +1,92 @@
+body { 
+    font-family: Arial; 
+    background: #f4f4f4; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.logo-top { 
+    width: 150px; 
+    margin-top: 20px; 
+}
+
+.box { 
+    background: white; 
+    padding: 25px; 
+    margin: 20px auto; 
+    width: 380px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #bbb; 
+}
+
+input, select { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+button { 
+    width: 100%; 
+    padding: 12px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border: none; 
+    margin-top: 10px; 
+}
+
+.khalti { 
+    background: #5d2e8c; 
+    color: white; 
+}
+
+.esewa { 
+    background: #1ba548; 
+    color: white; 
+}
+
+.gateway-logo { 
+    width: 130px; 
+}
+
+.invoice { 
+    display: none; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    background: white; 
+    padding: 20px; 
+    box-shadow: 0 0 10px #aaa; 
+    border-radius: 10px; 
+    text-align: left; 
+}
+
+.invoice h2 { 
+    text-align: center; 
+}
+
+hr { 
+    margin: 10px 0; 
+}
+
+.popup {
+    display:none; 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%;
+    background:rgba(0,0,0,0.6); 
+    justify-content:center; 
+    align-items:center;
+}
+
+.popup-content {
+    background:white; 
+    width:300px; 
+    padding:25px; 
+    border-radius:10px; 
+    text-align:center;
+}
